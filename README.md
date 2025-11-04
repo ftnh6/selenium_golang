@@ -8,3 +8,4 @@ How to install/use:
 4. go to the http://localhost:7900/ and enter the password "secret" to see live of the Chrome browser running inside the Docker container
 5. and then run the script in terminal: go run selenium-project.go
  
+![out-1](https://github.com/user-attachments/assets/3812ef6a-5652-42b0-b872-5aa2ee715765)
