@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  selenium:
+    image: selenium/standalone-chrome:latest
+    container_name: selenium_chrome
+    ports:
+      - "4444:4444"   
+      - "7900:7900"   
+    shm_size: 2gb
+    volumes:
+      - ./:/home/debian/projects/selenium_project  # change the directory of the project with yours
+
